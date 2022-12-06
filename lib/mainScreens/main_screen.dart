@@ -8,9 +8,19 @@ class MainScreen extends StatefulWidget
   State<MainScreen> createState() => _MainScreenState();
 }
 
-class _MainScreenState extends State<MainScreen> {
+
+
+
+
+class _MainScreenState extends State<MainScreen>
+{
   @override
   Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Welcome"),
+      )
+    );
     return Container();
   }
 }

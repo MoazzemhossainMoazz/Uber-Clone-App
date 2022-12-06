@@ -1,3 +1,4 @@
+import 'package:drivers_app/splashScreen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() async
@@ -11,10 +12,10 @@ void main() async
 
           primarySwatch: Colors.blue,
         ),
-        home: Scaffold(appBar: AppBar(title: Text("Welcome to Drivers App"))) ,
+        home: const MySplashScreen(),
         debugShowCheckedModeBanner: false,
-      )
-    )
+      ),
+    ),
   );
 }
 
